@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Rellena tu CV</h3>
+    <br/>
+    <form >
+    Nombre
+    <br/>
+    <input type="text" name="nombre" value=""/>
+    <br/>
+    Apellido
+    <br/>
+    <input type="text" name="apellido" value="" size="50"/>
+    <br/>
+    Contraseña 
+    <br/>
+    <input type="password" name="contraseña" value=""/>
+    <br/>
+    <br/>
+    Confirmar contraseña 
+    <br/>
+    <input type="password" name="confirmarcontra" value=""/>
+    <br/>
+    Identificación <br/>
+    <select name="select">
+    <option value="CC">CC</option>
+    <option value="TI" selected>TI</option>
+    <option value="CE">CE</option>
+    </select>
+    <input type="text" name="Identificacion" value="" size="10" maxlength="9" />
+    <br/>
+    Sexo <br/>
+    <input type="radio" name="sexo" value="hombre"  /> Hombre
+    <br/>
+    <input type="radio" name="sexo" value="mujer" checked="checked"/> Mujer
+    <br/><br/>
+    Incluir mi foto 
+    <br/>
+    <input type="file" name="foto" />
+    <br/><br/>
+    <input type="checkbox" name="estudiante" checked="checked"/>
+    Estudiante 
+    <br/><br/>
+    <fieldset>
+     <legend>Datos personales</legend>
+     Departamento <br/>
+     <select name="Departamento">
+     <option value="amazonas">Amazonas</option>
+     <option value="Antioquia" selected>Antioquia</option>
+     <option value="Arauca">Arauca</option>
+     <option value="Atlántico">Atlántico</option>
+     <option value="Bogota">Bogotá</option>
+     <option value="Bolivar">Bolívar</option>
+     <option value="Boyacá">Boyacá</option>
+     <option value="Caldas">Caldas</option>
+     <option value="Caqueta">Caquetá</option>
+     <option value="Casanare">Casanare</option>
+     <option value="Cauca">Cauca</option>
+     <option value="Cesar">Cesar</option>
+     <option value="Choco">Chocó</option>
+     <option value="cordoba">Córdoba</option>
+     <option value="Cundinamarca">Cundinamarca</option>
+     <option value="Guanía">Guanía</option>
+     <option value="Guaviare">Guaviare</option>
+     <option value="Huila">Huila</option>
+     <option value="La Guajira">La Guajira</option>
+     <option value="Magdalena">Magdalena</option>
+     <option value="Meta">Meta</option>
+     <option value="Nariño">Nariño</option>
+     <option value="Norte de Santander">Norte de Santander</option>
+     <option value="Putumayo">Putumayo</option>
+     <option value="Quindío">Quindío</option>
+     <option value="Risaralda">Risaralda</option>
+     <option value="San andrés y Providencia">San andrés y Providencia</option>
+     <option value="Santander">Santander</option>
+     <option value="Sucre">Sucre</option>
+     <option value="Tolima">Tolima</option>
+     <option value="Valle del Cauca">Valle del Cauca</option>
+     <option value="Vaupes">Vaupés</option>
+     <option value="Vichada">Vichada</option>
+     </select>
+     <br/>
+     Fecha de nacimiento <br/>
+     <input type="text" name="dia" size="2"/> de <select name="mes">
+        <option value="Enero" select>Enero</option>
+        <option value="Febrero">Febrero</option> 
+        <option value="Marzo">Marzo</option>
+        <option value="Abril">Abril</option>
+        <option value="Mayo">Mayo</option>
+        <option value="Junio">Junio</option>
+        <option value="Julio">Julio</option>
+        <option value="Agosto">Agosto</option>
+        <option value="Septiembre">Septiembre</option>
+        <option value="Octubre">Octubre</option>
+        <option value="Noviembre">Noviembre</option>
+        <option value="Diciembre">Diciembre</option>
+     </select> 
+      de <input type="text" name="año" size="4"/>
+       <br/>
+       Temas de interés
+       <br/>
+      <textarea name="texto"cols="42" rows="6" wrap="hard" readonly="yes">
+          Administración de bases de Datos
+          Análisis y programación 
+          Arquitectura 
+          Calidad 
+          ERP,CRM, Business Intelligence
+      </textarea>
+      <br/>
+     <a href="index.html"> <input type="button" value="Guardar cambios"></a>
+    <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+    </fieldset>
+    </form>
+
+</body>
+</html>
